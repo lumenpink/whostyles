@@ -9,7 +9,7 @@ on:
 jobs:
   test-js:
     name: JavaScript Tests
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: https://github.com/actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
@@ -24,7 +24,7 @@ jobs:
 
   test-php:
     name: PHP Tests
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: https://github.com/actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
@@ -40,7 +40,7 @@ jobs:
 
   test-python:
     name: Python Tests
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: https://github.com/actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
@@ -55,7 +55,7 @@ jobs:
 
   test-go:
     name: Go Tests
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: https://github.com/actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
@@ -70,7 +70,7 @@ jobs:
 
   test-rust:
     name: Rust Tests
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: https://github.com/actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
